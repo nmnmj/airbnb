@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.onclickred:hover{
+  border-bottom: solid red 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chkbx {
+  transform: scale(2); /* Adjust the scale factor to increase or decrease the size */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sidebar:hover .hide{
+  font-size: small;
+  display: inline;
+}
+
+.show:hover {
+  border-right: 1px solid red;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  border-right: 1px solid red;
+}
+
+.sidebar a:hover {
+  background-color: beige;
+  color: black;
+}
+
+.heart{
+  background-color: white;
+  transition: .5s;
+}
+
+.heart:hover{
+  background-color: red;
+  color:white
+}
+
+/* div.content {
+  padding: 1px 16px;
+  height: 1000px;
+} */
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
   }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
   }
 }

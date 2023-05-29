@@ -1,0 +1,34 @@
+[
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-10989371/original/46c0c87f-d9bc-443c-9b64-24d9e594b54c.jpeg",
+        "title":"WhiteFish Estate",
+        "address":"Whitefish Montana US",
+        "price":"$1000/night",
+        "msg":"a",
+        "rating":"5.00"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-742424658135898180/original/ef5464ea-5eb8-426a-a097-a4ed7a395610.jpeg",
+        "title":"Numero 22 Lake View",
+        "address":"Laglio Italy",
+        "price":"$350/night",
+        "msg":"b",
+        "rating":"4.99"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-13903824/original/82d996fb-d7c4-46a8-a713-febd281cd69f.jpeg",
+        "title":"Luxury Stay",
+        "address":"Weston, Saint James Barbados",
+        "price":"$1500/night",
+        "msg":"c",
+        "rating":"5.00"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-2694793/original/a6d39bc6-9564-4503-8b84-c796ecda03af.jpeg",
+        "title":"Bohemian & Spacious",
+        "address":"Tulum Mexico",
+        "price":"$199/night",
+        "msg":"d",
+        "rating":"4.97"
+    }
+]
