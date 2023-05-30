@@ -1,24 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.avatarimg{
+  border:none;
+  border-radius:50%
+}
+
+.filterr{
+  font-size:larger;
+  padding:15px; 
+  background-color:beige; 
+  border-radius:30%;
+  color:white; 
+  text-align:center
+}
+
+.price{
+  border-radius:30%;
+  padding:.5vw; 
+  border:1px solid grey;
+ 
+}
+
 .onclickred:hover{
   border-bottom: solid red 2px;
+}
+
+.star{
+  background-color: black;
+  color:black
 }
 
 .chkbx {
   transform: scale(2); /* Adjust the scale factor to increase or decrease the size */
 }
 
-.sidebar:hover .hide{
+.show{
+  font-size:2vw;
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+
+}
+
+.hide {
+  display: none;
+  transition: all .5s ease-in-out;
+
+}
+
+.aa{
+  width: max-content;
+  transition: all 1s ease-in-out;
+}
+
+.aa:hover .hide{
+  width: max-content;
   font-size: small;
   display: inline;
 }
 
-.show:hover {
-  border-right: 1px solid red;
-}
-
-.hide{
+.sidebar .hide {
   display: none;
 }
-
 
 
 .sidebar {
@@ -28,15 +76,8 @@
   height: 100%;
   overflow: auto;
 }
-
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
  
-.sidebar a.active {
+.home{
   border-right: 1px solid red;
 }
 
@@ -45,9 +86,28 @@
   color: black;
 }
 
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  padding: 50px;
+  z-index: 1000;
+}
+
+
 .heart{
   background-color: white;
   transition: .5s;
+  padding:5px; 
+  border-radius:50%; 
+  font-size:2vw; 
+  cursor:pointer;
+  float:right; 
+  position:absolute; 
+  top:30px; 
+  right:25px
 }
 
 .heart:hover{
@@ -55,6 +115,43 @@
   color:white
 }
 
+.navbarb{
+  border-bottom:rgb(243, 240, 240) 1px solid;
+  border-top:rgb(239, 233, 233) 1px solid
+}
+
+.updiv{
+  position: relative;
+  margin-top: -12px;
+}
+.dashboard{
+  padding-inline:12px;
+  padding-bottom: 10px;
+  border-radius:30%; 
+  color:white; 
+  text-align:center
+}
+
+.map{
+  padding-inline:12px;
+  padding-bottom: 10px;
+  position: relative;
+  right: 15px;
+  background-color:beige; 
+  border-radius:30%; 
+  color:white; 
+  text-align:center
+}
+
+.cdiv{
+  background-color:beige; 
+  padding:1vw; 
+  border-radius:1vw
+}
+
+.collapse{
+  z-index: 1000;
+}
 /* div.content {
   padding: 1px 16px;
   height: 1000px;

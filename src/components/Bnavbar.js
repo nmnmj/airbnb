@@ -10,13 +10,13 @@ import { GrFilter } from 'react-icons/gr';
 const Bnavbar = () => {
   return (
     <>
-    <div className='sticky-top'>
-        <nav className="navbar navbar-expand-lg navbar-white bg-white">
+    <div className='sticky-top '>
+        <nav className="navbar navbar-expand-lg navbar-white bg-white updiv navbarb">
             <div className="container-fluid">
-                <a className="navbar-brand ms-3 bg-dark" style={{padding:"10px", borderRadius:"30%", color:"white", textAlign:"center"}} href="#">
+                <a className="navbar-brand ms-3 bg-dark dashboard" href="#">
                     <RxDashboard />
                 </a>
-                <a className="navbar-brand text-dark" style={{padding:"10px", backgroundColor:"beige", borderRadius:"30%", color:"white", textAlign:"center"}} href="#">
+                <a className="navbar-brand text-dark map" href="#">
                     <FiMap />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +26,22 @@ const Bnavbar = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
                   
                     <li className="nav-item" style={{marginLeft:"26vw"}}>
-                    <a className="nav-link text-dark text-bold me-2" style={{backgroundColor:"beige", padding:"2vh", borderRadius:"1vw"}} aria-current="page" href="#">
+                    <a className="nav-link text-dark text-bold me-2 cdiv"  aria-current="page" href="#">
                        Anywhere <RiArrowDropDownLine />
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link text-dark text-bold" style={{backgroundColor:"beige", padding:"2vh", borderRadius:"1vw"}} href="#">
+                    <a className="nav-link text-dark text-bold cdiv"  href="#">
                         <SlCalender /> June 14 - 21
                     </a>
                     </li>
                     <li className="nav-item">
-                    <span className="nav-link text-dark text-bold ms-2" style={{backgroundColor:"beige", padding:"2vh", borderRadius:"1vw"}}  href="#">
-                        <a href="#" style={{textDecoration:"none", color:"red"}}>
+                    <span className="nav-link text-dark text-bold ms-2 cdiv"   href="#">
+                        <a href="#" className='text-decoration-none text-danger' >
                         <AiOutlineMinus style={{backgroundColor:"white", fontSize:"25px", marginRight:"10px"}} />
                         </a>
                         4 guests
-                        <a href="#" style={{textDecoration:"none", color:"red"}}>
+                        <a href="#" className='text-decoration-none text-danger' >
                         <AiOutlinePlus style={{backgroundColor:"white", fontSize:"25px", marginLeft:"10px"}} />
                         </a>
                     </span>
@@ -51,7 +51,7 @@ const Bnavbar = () => {
                   
                 </ul>
                 <form className="d-flex">
-                    <a className="me-3" style={{fontSize:"larger",padding:"15px", backgroundColor:"beige", borderRadius:"30%", color:"white", textAlign:"center"}} type="submit">
+                    <a className="me-3 filterr" type="submit">
                         <GrFilter data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" />
                     </a>
                 </form>
@@ -60,22 +60,22 @@ const Bnavbar = () => {
         </nav>
        
     </div>
-    <div className="collapse" id="collapseExample" style={{width:"35vw", float:"right"}}>
-            <div className="card card-body">
+    <div className="collapse" id="collapseExample">
+            <div className="card card-body" style={{width:"35vw", float:"right", fontSize:"1vw"}}>
                 <div>
-                <span style={{fontWeight:"bold"}}>Filters</span>
-                <a className='' style={{ color:"red", marginLeft:"22vw", textDecoration:"none", cursor:"pointer"}}>Clear All </a>
+                <span style={{fontWeight:"normal"}}>Filters</span>
+                <a className='' style={{ color:"red", marginLeft:"20vw", textDecoration:"none", cursor:"pointer"}}>Clear All </a>
                 <hr />
                 <span style={{fontWeight:"bold"}}>Price Range</span> <br />
                 <span>The average nightly price is $133</span> <br /> <br />
                 <div className='d-flex'>
                     <div>
                     <span style={{fontWeight:"lighter"}}>Min Price</span> <br />
-                    <input className='mt-2' type="text" name="minp" style={{borderRadius:"30%", padding:".5vw", border:"1px solid grey"}} />
+                    <input className='mt-2 form-control price' type="text" name="minp" />
                     </div>
                     <div>
                     <span style={{fontWeight:"lighter"}}>Max Price</span> <br />
-                    <input className='mt-2' type="text" name="maxp" style={{borderRadius:"30%", padding:".5vw", border:"1px solid grey"}} />
+                    <input className='mt-2 form-control price' type="text" name="maxp" />
                     </div>
                 </div>
                 <hr />

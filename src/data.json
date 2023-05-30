@@ -30,5 +30,62 @@
         "price":"$199/night",
         "msg":"d",
         "rating":"4.97"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/airflow/Hosting-714258423682866070/original/960755ad-ce79-4606-8f17-7c2d6c64fe41.jpg",
+        "title":"Wirobranjan Indonesia",
+        "address":"Wirobranjan Indonesia",
+        "price":"$200/night",
+        "rating":"4.86"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-13016398/original/6c59e24d-89f3-4475-aaca-80363792fb51.jpeg",
+        "title":"France Ambience",
+        "address":"Malakoff France",
+        "price":"$299/night",
+        "rating":"4.86"
+    },{
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/0d4e80ac-b1b4-44d1-ab2f-10c67c1e8e2a.jpeg",
+        "title":"African Essence",
+        "address":"Zanzibar Tanzania",
+        "price":"$200/night",
+        "rating":"4.80"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/b7854c47-4521-48ed-a3ae-30f63d8561a3.jpg",
+        "title":"Thailand Hospitality",
+        "address":"Bangkok Thailand",
+        "price":"$199/night",
+        "rating":"4.89"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/b7854c47-4521-48ed-a3ae-30f63d8561a3.jpg",
+        "title":"Books Love",
+        "address":"South Korea",
+        "price":"$200/night",
+        "rating":"4.90"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-13903824/original/82d996fb-d7c4-46a8-a713-febd281cd69f.jpeg",
+        "title":"Luxury Stay",
+        "address":"Weston, Saint James Barbados",
+        "price":"$1500/night",
+        "msg":"c",
+        "rating":"5.00"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/miso/Hosting-2694793/original/a6d39bc6-9564-4503-8b84-c796ecda03af.jpeg",
+        "title":"Bohemian & Spacious",
+        "address":"Tulum Mexico",
+        "price":"$199/night",
+        "msg":"d",
+        "rating":"4.97"
+    },
+    {
+        "img":"https://a0.muscache.com/im/pictures/airflow/Hosting-714258423682866070/original/960755ad-ce79-4606-8f17-7c2d6c64fe41.jpg",
+        "title":"Wirobranjan Indonesia",
+        "address":"Wirobranjan Indonesia",
+        "price":"$200/night",
+        "rating":"4.86"
     }
 ]
