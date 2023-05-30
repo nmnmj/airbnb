@@ -5,36 +5,27 @@ const Navbar = () => {
     let avatarimg="https://framerusercontent.com/images/RkV86hKSZ17yNsuZKWylbt86ZiI.png"
   return (
     <>
-        <nav className="navbar navbar-expand-lg navbar-white bg-white navbarb">
-            <div className="container-fluid">
-                <a className="navbar-brand ms-3" href="#">
-                    <img src={logoimg} alt="" width="100vw" />
-                </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
-                  
-                    <li className="nav-item" style={{marginLeft:"30vw"}}>
-                    <a className="nav-link onclickred text-dark fw-bold stays" aria-current="page" href="#">Stays</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link onclickred text-dark " href="#">Experiences</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link onclickred text-dark " href="#">Online Experiences</a>
-                    </li>
-                                      
-                </ul>
-                <form className="d-flex">
-                    <a className="me-3" type="submit">
-                        <img src={avatarimg} alt="" width="40vw" className='avatarimg' />
-                    </a>
-                </form>
-                </div>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+        <div class="mt-2">
+            <a className="navbar-brand ms-3" href="#">
+                <img src={logoimg} alt="" width="100vw" />
+            </a>
+        </div>
+        <div class="mt-3">
+            <div>
+                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Stays</a>
+                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Experiences</a>
+                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Online Experiences</a>
             </div>
-        </nav>
+        </div>
+        <div class="mt-3">
+             <a className="me-3" type="submit">
+                <img src={avatarimg} alt="" width="40vw" className='avatarimg' />
+            </a>
+        </div>
+        </div>
+    </div>
     </>
   )
 }

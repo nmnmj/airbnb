@@ -10,56 +10,43 @@ import { GrFilter } from 'react-icons/gr';
 const Bnavbar = () => {
   return (
     <>
-    <div className='sticky-top '>
-        <nav className="navbar navbar-expand-lg navbar-white bg-white updiv navbarb">
-            <div className="container-fluid">
-                <a className="navbar-brand ms-3 bg-dark dashboard" href="#">
-                    <RxDashboard />
+     <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+        <div class="mt-2">
+            <span className="navbar-brand ms-3 bg-dark dashboard text-decoration-none" href="#">
+                <RxDashboard />
+            </span>
+            <a className="navbar-brand text-dark map" href="#">
+                <FiMap />
+            </a>
+        </div>
+        <div class="">
+            <div className='d-flex'>
+                <a className="nav-link text-dark text-bold me-2 cdiv "  aria-current="page" href="#">
+                    Anywhere <RiArrowDropDownLine />
                 </a>
-                <a className="navbar-brand text-dark map" href="#">
-                    <FiMap />
+                <a className="nav-link text-dark text-bold cdiv "  href="#">
+                    <SlCalender /> June 14 - 21
                 </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
-                  
-                    <li className="nav-item" style={{marginLeft:"26vw"}}>
-                    <a className="nav-link text-dark text-bold me-2 cdiv"  aria-current="page" href="#">
-                       Anywhere <RiArrowDropDownLine />
+                <span className="nav-link text-dark text-bold ms-2 cdiv "   href="#">
+                    <a href="#" className='text-decoration-none text-danger' >
+                    <AiOutlineMinus style={{backgroundColor:"white", fontSize:"25px", marginRight:"10px"}} />
                     </a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link text-dark text-bold cdiv"  href="#">
-                        <SlCalender /> June 14 - 21
+                    4 guests
+                    <a href="#" className='text-decoration-none text-danger' >
+                    <AiOutlinePlus style={{backgroundColor:"white", fontSize:"25px", marginLeft:"10px"}} />
                     </a>
-                    </li>
-                    <li className="nav-item">
-                    <span className="nav-link text-dark text-bold ms-2 cdiv"   href="#">
-                        <a href="#" className='text-decoration-none text-danger' >
-                        <AiOutlineMinus style={{backgroundColor:"white", fontSize:"25px", marginRight:"10px"}} />
-                        </a>
-                        4 guests
-                        <a href="#" className='text-decoration-none text-danger' >
-                        <AiOutlinePlus style={{backgroundColor:"white", fontSize:"25px", marginLeft:"10px"}} />
-                        </a>
-                    </span>
-                    </li>
-                    
-                   
-                  
-                </ul>
-                <form className="d-flex">
-                    <a className="me-3 filterr" type="submit">
-                        <GrFilter data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" />
-                    </a>
-                </form>
-                </div>
+                </span>
             </div>
-        </nav>
-       
+        </div>
+        <div class="">
+            <a className="me-3 filterr" type="submit">
+                <GrFilter data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" />
+            </a>
+        </div>
+        </div>
     </div>
+
     <div className="collapse" id="collapseExample">
             <div className="card card-body" style={{width:"35vw", float:"right", fontSize:"1vw"}}>
                 <div>

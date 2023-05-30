@@ -32,7 +32,7 @@ const Sidebar = () => {
                 </a>
                 <a href="#news" className='ms-3 show' >
                     <GiIndiaGate />
-                    <span className='hide ms-2' >AmazingView</span>
+                    <span className='hide ms-2' >Amazing View</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
                     <MdMapsHomeWork />
@@ -98,13 +98,13 @@ const Sidebar = () => {
         {
             data.map((item, i)=>{
                 return <>
-                    <div className="content " key={i} style={{cursor:"pointer"}} onClick={()=>{setShow(!show)}} >
-                        <div className="card" style={{width: "23vw", border:"none"}}>
+                    <div className="" key={i} style={{cursor:"pointer"}} onClick={()=>{setShow(!show)}} >
+                        <div className="card" style={{width: "20vw", border:"none"}}>
                             <div className="card-body" >
                             <AiOutlineHeart className='heart' />
                             <img src={item.img} className="card-img-top" style={{borderTopRightRadius:"10%",borderTopLeftRadius:"10%"}} alt="..."  />
                                 <div style={{border:"1px solid lightgrey"}}>
-                                    <div className='ms-3'>
+                                    <div className='ms-3 mt-2'>
                                         <h6 className="card-text">{item.title}</h6>
                                         <span style={{fontWeight:"lighter"}}>{item.address}</span> <br /> <br />
                                         <span className='fw-bold'>{item.price}</span>

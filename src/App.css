@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .avatarimg{
@@ -11,7 +15,7 @@
 .filterr{
   font-size:larger;
   padding:15px; 
-  background-color:beige; 
+  background-color:rgb(239, 233, 233); 
   border-radius:30%;
   color:white; 
   text-align:center
@@ -41,10 +45,9 @@
   font-size:2vw;
   display: block;
   color: black;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
   transition: all 1s ease-in-out;
-
 }
 
 .hide {
@@ -64,25 +67,20 @@
   display: inline;
 }
 
-.sidebar .hide {
-  display: none;
-}
-
-
-.sidebar {
+/* .sidebar {
   margin: 0;
   padding: 0;
   background-color: transparent;
   height: 100%;
   overflow: auto;
-}
+} */
  
 .home{
   border-right: 1px solid red;
 }
 
 .sidebar a:hover {
-  background-color: beige;
+  background-color: rgb(239, 233, 233);
   color: black;
 }
 
@@ -120,56 +118,37 @@
   border-top:rgb(239, 233, 233) 1px solid
 }
 
-.updiv{
+/* .updiv{
   position: relative;
   margin-top: -12px;
-}
+} */
 .dashboard{
-  padding-inline:12px;
-  padding-bottom: 10px;
+  font-size: 1.5vw;
+  cursor: pointer;
+  padding-inline:15px;
+  padding-bottom: 15px;
   border-radius:30%; 
   color:white; 
   text-align:center
 }
 
 .map{
-  padding-inline:12px;
-  padding-bottom: 10px;
+  padding-inline:15px;
+  padding-bottom: 12px;
   position: relative;
   right: 15px;
-  background-color:beige; 
+  background-color:rgb(239, 233, 233); 
   border-radius:30%; 
   color:white; 
   text-align:center
 }
 
 .cdiv{
-  background-color:beige; 
+  background-color:rgb(239, 233, 233); 
   padding:1vw; 
   border-radius:1vw
 }
 
 .collapse{
   z-index: 1000;
-}
-/* div.content {
-  padding: 1px 16px;
-  height: 1000px;
-} */
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
 }
