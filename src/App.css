@@ -152,3 +152,21 @@
 .collapse{
   z-index: 1000;
 }
+
+.dchild{
+  color:black; 
+  text-transform:none
+}
+
+.drawerimg{
+  border-radius: 10%;
+  padding: 2vw;
+  width: 55vw;
+}
+
+.drawerimg2{
+  margin-top: 1vh;
+  border-radius: 20%;
+  padding: 1vw;
+  width: 26vw;
+}

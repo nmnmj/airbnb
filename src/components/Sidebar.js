@@ -19,9 +19,12 @@ import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineHeart } from 'react-icons/ai';
 import data from '../data.json'
 import Modal from './Modal';
+import TemporaryDrawer from './Drawer';
 
 const Sidebar = () => {
     let[show, setShow] = useState(false)
+    let[modalprop, setModalprop] = useState()
+    
   return (
     <div className='d-flex'>
         <div className="sidebar" >
@@ -98,33 +101,38 @@ const Sidebar = () => {
         {
             data.map((item, i)=>{
                 return <>
-                    <div className="" key={i} style={{cursor:"pointer"}} onClick={()=>{setShow(!show)}} >
-                        <div className="card" style={{width: "20vw", border:"none"}}>
-                            <div className="card-body" >
-                            <AiOutlineHeart className='heart' />
-                            <img src={item.img} className="card-img-top" style={{borderTopRightRadius:"10%",borderTopLeftRadius:"10%"}} alt="..."  />
-                                <div style={{border:"1px solid lightgrey"}}>
-                                    <div className='ms-3 mt-2'>
-                                        <h6 className="card-text">{item.title}</h6>
-                                        <span style={{fontWeight:"lighter"}}>{item.address}</span> <br /> <br />
-                                        <span className='fw-bold'>{item.price}</span>
-                                        <span className='me-2' style={{float:"right"}}>
-                                            <AiFillStar   />
-                                            {item.rating}
-                                        </span>
+                    <TemporaryDrawer item={modalprop} >
+                        <div className="" key={i} style={{cursor:"pointer"}} onClick={()=>{
+                            setModalprop(item)
+                        }} >
+                            <div className="card" style={{width: "20vw", border:"none"}}>
+                                <div className="card-body" >
+                                <AiOutlineHeart className='heart' />
+                                <img src={item.img} className="card-img-top" style={{borderTopRightRadius:"10%",borderTopLeftRadius:"10%"}} alt="..."  />
+                                    <div style={{border:"1px solid lightgrey"}}>
+                                        <div className='ms-3 mt-2'>
+                                            <h6 className="card-text fw-bold">{item.title}</h6>
+                                            <span style={{fontWeight:"lighter"}}>{item.address}</span> <br /> <br />
+                                            <span className='fw-bold'>${item.price}/night</span>
+                                            <span className='me-2' style={{float:"right"}}>
+                                                <AiFillStar   />
+                                                {item.rating}
+                                            </span>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                                {/* show &&  */}
+                                {/* <Modal show={show} setShow={setShow}  >
+                                    <h1>{item.msg}</h1>
+                                </Modal> */}
+                            
+                        
                         </div>
-                        {
-                            show && 
-                            <Modal show={show} setShow={setShow}  >
-                                <h1>{item.msg}</h1>
-                            </Modal>
-                        } 
-                      
-                    </div>
+
+                    </TemporaryDrawer>
                 </>
             })
         }

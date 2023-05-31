@@ -10,7 +10,7 @@ import { GrFilter } from 'react-icons/gr';
 const Bnavbar = () => {
   return (
     <>
-     <div class="container-fluid">
+     <div class="container-fluid sticky-top bg-white">
         <div class="d-flex justify-content-between">
         <div class="mt-2">
             <span className="navbar-brand ms-3 bg-dark dashboard text-decoration-none" href="#">
