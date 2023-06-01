@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaAirbnb } from 'react-icons/fa';
 import { GiIndiaGate } from 'react-icons/gi';
 import { MdMapsHomeWork } from 'react-icons/md';
@@ -18,13 +18,18 @@ import { GiDesert } from 'react-icons/gi';
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineHeart } from 'react-icons/ai';
 import data from '../data.json'
-import Modal from './Modal';
 import TemporaryDrawer from './Drawer';
+import $ from 'jquery';
 
 const Sidebar = () => {
-    let[show, setShow] = useState(false)
     let[modalprop, setModalprop] = useState()
-    
+    useEffect(()=>{
+        $(".aa").hover(function(){
+            $(".hide").show(500)
+        },function(){
+            $(".hide").hide(500)
+        })
+    },[])
   return (
     <div className='d-flex'>
         <div className="sidebar" >
@@ -123,13 +128,6 @@ const Sidebar = () => {
                                     </div>
                                 </div>
                             </div>
-                            
-                                {/* show &&  */}
-                                {/* <Modal show={show} setShow={setShow}  >
-                                    <h1>{item.msg}</h1>
-                                </Modal> */}
-                            
-                        
                         </div>
 
                     </TemporaryDrawer>

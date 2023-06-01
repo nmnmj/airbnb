@@ -4,7 +4,13 @@
         "title":"WhiteFish Estate",
         "address":"Whitefish Montana US",
         "price":"1000",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"a",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"5.00"
     },
     {
@@ -12,7 +18,13 @@
         "title":"Numero 22 Lake View",
         "address":"Laglio Italy",
         "price":"350",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"b",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.99"
     },
     {
@@ -20,7 +32,13 @@
         "title":"Luxury Stay",
         "address":"Weston, Saint James",
         "price":"1500",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"c",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"5.00"
     },
     {
@@ -28,7 +46,13 @@
         "title":"Bohemian & Spacious",
         "address":"Tulum Mexico",
         "price":"199",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"d",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.97"
     },
     {
@@ -36,6 +60,12 @@
         "title":"Wirobranjan Indonesia",
         "address":"Wirobranjan Indonesia",
         "price":"200",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.86"
     },
     {
@@ -43,12 +73,24 @@
         "title":"France Ambience",
         "address":"Malakoff France",
         "price":"299",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.86"
     },{
         "img":"https://a0.muscache.com/im/pictures/miso/Hosting-45076629/original/0d4e80ac-b1b4-44d1-ab2f-10c67c1e8e2a.jpeg",
         "title":"African Essence",
         "address":"Zanzibar Tanzania",
         "price":"200",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.80"
     },
     {
@@ -56,6 +98,12 @@
         "title":"Thailand Hospitality",
         "address":"Bangkok Thailand",
         "price":"199",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.89"
     },
     {
@@ -63,6 +111,12 @@
         "title":"Books Love",
         "address":"South Korea",
         "price":"200",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.90"
     },
     {
@@ -70,7 +124,13 @@
         "title":"Luxury Stay",
         "address":"Weston, Saint James",
         "price":"1500",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"c",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"5.00"
     },
     {
@@ -78,7 +138,13 @@
         "title":"Bohemian & Spacious",
         "address":"Tulum Mexico",
         "price":"199",
+        "cleaning":"85",
+        "airbnbfee":"322",
         "msg":"d",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.97"
     },
     {
@@ -86,6 +152,12 @@
         "title":"Wirobranjan Indonesia",
         "address":"Wirobranjan Indonesia",
         "price":"200",
+        "cleaning":"85",
+        "airbnbfee":"32",
+        "guest": 4,
+        "bedroom":4,
+        "bed": 6,
+        "bath":8,
         "rating":"4.86"
     }
 ]
