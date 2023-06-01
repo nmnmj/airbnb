@@ -25,7 +25,7 @@ const Sidebar = () => {
     let[modalprop, setModalprop] = useState()
     useEffect(()=>{
         $(".aa").hover(function(){
-            $(".hide").show(500)
+            $(".hide").show(200)
         },function(){
             $(".hide").hide(500)
         })
@@ -33,70 +33,70 @@ const Sidebar = () => {
   return (
     <div className='d-flex'>
         <div className="sidebar" >
-            <div className='aa'>
+            <div className='aa mt-2 p-2'>
                 <a className="home show ms-3" href="#home" >
-                    <FaAirbnb  />
-                    <span className='hide ms-2' >All Homes</span>
+                    <FaAirbnb  className='me-3' />
+                    <span className='hide ms-1' >All Homes</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiIndiaGate />
-                    <span className='hide ms-2' >Amazing View</span>
+                    <GiIndiaGate className='me-3' />
+                    <span className='hide ms-1' >Amazing View</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <MdMapsHomeWork />
-                    <span className='hide ms-2' >Tiny Homes</span>
+                    <MdMapsHomeWork className='me-3' />
+                    <span className='hide ms-1' >Tiny Homes</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiCampCookingPot />
-                    <span className='hide ms-2' >Kitchen</span>
+                    <GiCampCookingPot className='me-3' />
+                    <span className='hide ms-1' >Kitchen</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <MdSurfing />
-                    <span className='hide ms-2' >Surfing</span>
+                    <MdSurfing className='me-3' />
+                    <span className='hide ms-1' >Surfing</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiMedievalGate />
-                    <span className='hide ms-2' >Mansion</span>
+                    <GiMedievalGate className='me-3' />
+                    <span className='hide ms-1' >Mansion</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <RiHandCoinLine />
-                    <span className='hide ms-2' >Luxe</span>
+                    <RiHandCoinLine className='me-3' />
+                    <span className='hide ms-1' >Luxe</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiTreeDoor />
-                    <span className='hide ms-2' >Tree House</span>
+                    <GiTreeDoor className='me-3' />
+                    <span className='hide ms-1' >Tree House</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiCampingTent />
-                    <span className='hide ms-2' >Camping</span>
+                    <GiCampingTent className='me-3' />
+                    <span className='hide ms-1' >Camping</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <TbBeach />
-                    <span className='hide ms-2' >Beach Front</span>
+                    <TbBeach className='me-3' />
+                    <span className='hide ms-1' >Beach Front</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiFarmTractor />
-                    <span className='hide ms-2' >Farms</span>
+                    <GiFarmTractor className='me-3' />
+                    <span className='hide ms-1' >Farms</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiCastle />
-                    <span className='hide ms-2' >Castles</span>
+                    <GiCastle className='me-3' />
+                    <span className='hide ms-1' >Castles</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiGrapes />
-                    <span className='hide ms-2' >Vineyards</span>
+                    <GiGrapes className='me-3' />
+                    <span className='hide ms-1' >Vineyards</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <MdPool />
-                    <span className='hide ms-2' >Pool</span>
+                    <MdPool className='me-3' />
+                    <span className='hide ms-1' >Pool</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <FaSkiing />
-                    <span className='hide ms-2' >Skiing</span>
+                    <FaSkiing className='me-3' />
+                    <span className='hide ms-1' >Skiing</span>
                 </a>
                 <a href="#news" className='ms-3 show' >
-                    <GiDesert />
-                    <span className='hide ms-2' >Desert</span>
+                    <GiDesert className='me-3' />
+                    <span className='hide ms-1' >Desert</span>
                 </a>
 
             </div>

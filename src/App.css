@@ -15,7 +15,7 @@
 .filterr{
   font-size:larger;
   padding:15px; 
-  background-color:rgb(239, 233, 233); 
+  background-color:#f1f1f1; 
   border-radius:30%;
   color:white; 
   text-align:center
@@ -42,19 +42,17 @@
 }
 
 .show{
-  font-size:2vw;
+  font-size:1.8vw;
   display: block;
-  color: black;
+  color: rgb(85, 81, 81);
   padding: 10px;
   text-decoration: none;
-  transition: all 1s ease-in-out;
 }
 
 .hide {
   display: none;
   font-size: small;
-  transition: all .5s ease-in-out;
-
+  color: black;
 }
 
 .aa{
@@ -69,11 +67,11 @@
 
 
 .home{
-  border-right: 1px solid red;
+  border-right: 3px solid rgb(160, 3, 3);
 }
 
 .sidebar a:hover {
-  background-color: rgb(239, 233, 233);
+  background-color: #f1f1f1;
   color: black;
 }
 
@@ -107,8 +105,8 @@
 }
 
 .navbarb{
-  border-bottom:rgb(243, 240, 240) 1px solid;
-  border-top:rgb(239, 233, 233) 1px solid
+  border-bottom:#f1f1f1 1px solid;
+  border-top:#f1f1f1 1px solid
 }
 
 /* .updiv{
@@ -133,14 +131,14 @@
   padding-top: 12px;
   position: relative;
   right: 15px;
-  background-color:rgb(239, 233, 233); 
+  background-color:#f1f1f1; 
   border-radius:30%; 
   color:white; 
   text-align:center
 }
 
 .cdiv{
-  background-color:rgb(239, 233, 233); 
+  background-color:#f1f1f1; 
   padding:1vw; 
   border-radius:1vw
 }
@@ -173,7 +171,7 @@
 .winediv{
   font-weight: bold;
   margin: 2vw;
-  border: 1px solid rgb(214, 212, 212);
+  border: 1px solid #f1f1f1;
   border-radius: 10%;
   padding: .5vw;
 }
@@ -184,11 +182,11 @@
   padding: 5px;
   font-size: 2vw;
   border-radius: 50%;
-  background-color: rgb(241, 241, 236);
+  background-color: #f1f1f1;
 }
 
 .beigecard{
-  background-color: rgb(248, 248, 244);
+  background-color: #f1f1f1;
   border-radius: 5% ;
 }
 
@@ -196,10 +194,34 @@
   font-size: large;
   padding: .7vw;
   margin-top: .5vh;
-  border: 1px solid rgb(221, 218, 218);
+  border: 1px solid #f1f1f1;
   border-radius: 20%;
 }
 
-/* .close{
-  float: left;
-} */
+.stayred{
+  border-bottom: solid red 3px;
+}
+
+/* Hide the default scrollbar */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Apply custom styles to the scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

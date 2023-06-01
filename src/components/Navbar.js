@@ -7,17 +7,17 @@ const Navbar = () => {
     <>
     <div class="container-fluid">
         <div class="d-flex justify-content-between">
-        <div class="mt-2">
+        <div class="">
             <a className="navbar-brand ms-3" href="#">
-                <img src={logoimg} alt="" width="100vw" />
+                <img src={logoimg} alt="" width="110vw" />
             </a>
         </div>
-        <div class="mt-3">
-            <div>
-                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Stays</a>
-                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Experiences</a>
-                <a className='text-decoration-none m-2 pb-3 text-dark onclickred'>Online Experiences</a>
-            </div>
+        <div class="mt-4">
+            <small>
+                <a className='text-decoration-none m-4 pb-3 text-dark onclickred fw-bold stayred'>Stays</a>
+                <a className='text-decoration-none m-4 pb-3 text-dark onclickred'>Experiences</a>
+                <a className='text-decoration-none m-4 pb-3 text-dark onclickred'>Online Experiences</a>
+            </small>
         </div>
         <div class="mt-3">
              <a className="me-3" type="submit">
@@ -26,6 +26,7 @@ const Navbar = () => {
         </div>
         </div>
     </div>
+    <hr style={{margin:"0.3vh", color:"lightgray"}} />
     </>
   )
 }
