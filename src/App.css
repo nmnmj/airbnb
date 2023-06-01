@@ -117,9 +117,11 @@
 } */
 .dashboard{
   font-size: 1.5vw;
+  font-weight: bolder;
   cursor: pointer;
   padding-inline:15px;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
+  padding-top: 12px;
   border-radius:30%; 
   color:white; 
   text-align:center
@@ -128,6 +130,7 @@
 .map{
   padding-inline:15px;
   padding-bottom: 12px;
+  padding-top: 12px;
   position: relative;
   right: 15px;
   background-color:rgb(239, 233, 233); 

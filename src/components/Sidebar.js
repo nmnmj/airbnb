@@ -102,15 +102,15 @@ const Sidebar = () => {
             </div>
       
         </div>
-        <div className='' style={{width:"100%", display:"flex", flexWrap:"wrap", justifyContent:"space-evenly", height:"40%"}}>
+        <div className='container-fluid' style={{width:"100%", display:"flex", flexWrap:"wrap", justifyContent:"space-evenly"}}>
         {
             data.map((item, i)=>{
                 return <>
                     <TemporaryDrawer item={modalprop} >
-                        <div className="" key={i} style={{cursor:"pointer"}} onClick={()=>{
+                        <div className="" key={i} style={{cursor:"pointer", margin: "-1vw"}} onClick={()=>{
                             setModalprop(item)
                         }} >
-                            <div className="card" style={{width: "20vw", border:"none"}}>
+                            <div className="card" style={{width: "23vw", border:"none"}}>
                                 <div className="card-body" >
                                 <AiOutlineHeart className='heart' />
                                 <img src={item.img} className="card-img-top" style={{borderTopRightRadius:"10%",borderTopLeftRadius:"10%"}} alt="..."  />
